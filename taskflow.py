@@ -1,5 +1,5 @@
 # taskflow.py
-print('--- TaskFlow Manager v1.0 ---')
+print('--- TaskFlow Pro v1.0 ---')
 
 tasks = []
 
