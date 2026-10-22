@@ -10,3 +10,18 @@ def add_task(task_name):
 
 # Test the feature
 add_task('Buy groceries')
+
+
+# delete function
+def delete_task(task_name):
+    if task_name in tasks:
+        tasks.remove(task_name)
+        print(f"Task '{task_name}' deleted successfully!")
+    else:
+        print(f"Task '{task_name}' not founds")
+
+# after getting a comment from my PR
+# The professional fix:
+if __name__ == "__main__":
+    add_task("Buy groceries")
+    delete_task("Buy groceries")
