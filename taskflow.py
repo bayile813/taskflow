@@ -20,6 +20,8 @@ def delete_task(task_name):
     else:
         print(f"Task '{task_name}' not founds")
 
-# Test the delete task feature
-add_task("Buy groceries")
-delete_task("Buy groceries")
+# after getting a comment from my PR
+# The professional fix:
+if __name__ == "__main__":
+    add_task("Buy groceries")
+    delete_task("Buy groceries")
